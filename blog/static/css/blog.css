@@ -1,0 +1,83 @@
+/* General Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffd000;
+    color: rgb(13, 13, 13);
+    margin: 0 0 30px 0;
+    
+}
+h1 a{
+     color: rgb(13, 13, 13);
+
+}
+
+/* Blog Post Container */
+.post {
+    background: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.post:hover {
+    transform: translateY(-3px);
+}
+
+/* Post Date */
+.post .date {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Post Title */
+.post h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.post h1 a {
+    text-decoration: none;
+    
+}
+
+
+
+/* Post Content */
+.post p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Blog Images */
+.blog-image-list {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .post {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .post h1 {
+        font-size: 1.5rem;
+    }
+}
